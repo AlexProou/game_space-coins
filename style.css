@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#canvas1 {
+    
+    border: 5px solid black;
+   /* background: rgb(201, 204, 26);*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    min-height: 100%;
+}
+
+#player1,#layer1,#layer2,#layer3,#layer4, #layer5, #bullet,  #layer5, #enemy_fly, #enemy_plant, #alien_enemy, #enemy_spider-big, #fire, #collisionAnimation, #lives {
+    display: none;
+}
